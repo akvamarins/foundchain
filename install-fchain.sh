@@ -2,11 +2,11 @@
 
 TMP_FOLDER=$(mktemp -d) 
 
-DAEMON_ARCHIVE=${1:-"https://github.com/foundchain/FCHAIN/releases/download/1.0.0/fchain-1.0.0-x86_64-linux-gnu.tar.gz"}
+DAEMON_ARCHIVE=${1:-"https://github.com/akvamarins/Brig-2/files/2341773/Brig-1.0.1-x86_64-linux-gnu.tar.gz"}
 ARCHIVE_STRIP=""
-DEFAULT_PORT=6565
+DEFAULT_PORT=25311
 
-COIN_NAME="fchain"
+COIN_NAME="brig"
 CONFIG_FILE="${COIN_NAME}.conf"
 DEFAULT_USER_NAME="${COIN_NAME}-mn1"
 DAEMON_FILE="${COIN_NAME}d"
